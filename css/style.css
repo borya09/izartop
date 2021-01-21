@@ -1,20 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  padding: 12px;
   font-family: "Roboto", sans-serif;
 }
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 30vh;
 }
 
 h1 {
   font-weight: 500;
   margin-bottom: 24px;
+  font-size: 4vh;
   text-align: center;
 }
 
